@@ -1,66 +1,67 @@
 :root {
 
 	--one: white;
-	--two: #0e305d;
-	--three: #ff546c;
-	--four: #0a0b4e;
-	--five: rgba(255, 255, 255, 0.4);
-	--six: #ffd200;
-	--seven: #0d0e59;
-	--eight: #060742;
+	--two: black;
+	--three: #ff7a4b;
+	--four: #0c3e72;
+	--five: #2493e0;
+	--six: #828282;
+	--seven: #a7a9b8;
+	--eight: rgba(255, 255, 255, 0.6);
 }
+
 
 .text-color-one {
 	color: var(--one);
 }
+.text-color-two {
+	color: var(--two);
+}
+.text-color-three {
+	color: var(--three);
+}
+.text-color-four {
+	color: var(--four);
+}
+.text-color-five {
+	color: var(--five);
+}
+.text-color-six {
+	color: var(--six);
+}
+.text-color-seven {
+	color: var(--seven);
+}
+.text-color-eight {
+	color: var(--eight);
+}
+
 
 .bg-color-one {
 	background: var(--one);
 }
-
-.text-color-two {
-	color: var(--two);
-}
-
 .bg-color-two {
 	background: var(--two);
 }
-
-.text-color-three {
-	color: var(--three);
+.bg-color-three {
+	background: var(--three);
 }
-
-.bg-color-six {
-	background: var(--six);
-}
-
-.text-color-four {
-	color: var(--four);
-}
-
 .bg-color-four {
 	background: var(--four);
 }
-
+.bg-color-five {
+	background: var(--five);
+}
+.bg-color-six {
+	background: var(--six);
+}
 .bg-color-seven {
 	background: var(--seven);
 }
-
-.text-color-five {
-	color: var(--five);
-}
-
-.text-color-six {
-	color: var(--six);
-}
-
-.bg-color-two-light {
-	background: rgba(14, 48, 93, 0.8);
-}
-
 .bg-color-eight {
 	background: var(--eight);
 }
+
 
 body {
 	font-size: 15px;
