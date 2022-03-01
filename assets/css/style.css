@@ -105,8 +105,9 @@ body {
 }
 
 #home {
-	background: url(./../img/2.jpg) center right no-repeat;
+	background: url(./../img/14.jpg) top left no-repeat;
 	background-size: cover;
+	min-height: 100vh;
 }
 
 @media (max-width: 992px) {
